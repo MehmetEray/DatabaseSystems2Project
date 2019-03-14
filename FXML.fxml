@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #20120F;" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication1.FXMLController">
+    <stylesheets>
+        <URL value="@fxml.css" />
+    </stylesheets>
+   <children>
+      <AnchorPane layoutX="276.0" layoutY="-82.0" prefHeight="482.0" prefWidth="302.0" style="-fx-background-color: #9C2827;">
+         <children>
+            <TextField layoutX="56.0" layoutY="152.0" prefHeight="25.0" prefWidth="190.0" promptText="username" />
+            <PasswordField layoutX="56.0" layoutY="209.0" prefHeight="25.0" prefWidth="190.0" promptText="password" />
+            <Button layoutX="102.0" layoutY="271.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="98.0" style="-fx-background-color: #e45652;" text="SIGN IN" />
+            <Label layoutX="130.0" layoutY="108.0" text="SIGN IN" textFill="#3fd3ce" />
+            <Hyperlink layoutX="100.0" layoutY="331.0" text="Forgot Password?" textFill="#ebdfdf" />
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="343.0" fitWidth="244.0" layoutX="29.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="29.0" layoutY="136.0" prefHeight="64.0" prefWidth="244.0" text="SIGN UP PLEASE.." textFill="#ddd1d1">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="29.0" layoutY="200.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="201.0" style="-fx-background-color: #e45652;" text="SIGN UP" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #20120F;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication1.ConsolefxmlController">
+   <children>
+      <AnchorPane layoutX="14.0" layoutY="14.0" prefHeight="358.0" prefWidth="573.0">
+         <children>
+            <Label layoutX="38.0" layoutY="67.0" text="enter price please" textFill="#fcf9f9" />
+            <Button layoutX="223.0" layoutY="103.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="106.0" style="-fx-background-color: #e45652;" text="SHOW" />
+            <CheckBox layoutX="181.0" layoutY="31.0" mnemonicParsing="false" text="0-100" textFill="#fcf6f6" />
+            <CheckBox layoutX="268.0" layoutY="31.0" mnemonicParsing="false" text="100-200" textFill="#fcf6f6" />
+            <CheckBox layoutX="372.0" layoutY="31.0" mnemonicParsing="false" text="200-300" textFill="#fcf6f6" />
+            <Label layoutX="38.0" layoutY="31.0" text="enter page please" textFill="#fcf9f9" />
+            <CheckBox layoutX="181.0" layoutY="67.0" mnemonicParsing="false" text="0-10" textFill="#fcf6f6" />
+            <CheckBox layoutX="276.0" layoutY="68.0" mnemonicParsing="false" text="10-100" textFill="#fcf6f6" />
+            <CheckBox layoutX="388.0" layoutY="68.0" mnemonicParsing="false" text="100-.." textFill="#fcf6f6" />
+            <CheckBox layoutX="470.0" layoutY="31.0" mnemonicParsing="false" text="200-.." textFill="#fcf6f6" />
+            <TableView layoutX="32.0" layoutY="142.0" prefHeight="202.0" prefWidth="510.0">
+              <columns>
+                <TableColumn prefWidth="264.0" text="book's name" />
+                <TableColumn minWidth="0.0" prefWidth="113.0" text="book's page" />
+                  <TableColumn minWidth="0.0" prefWidth="129.0" text="book's price" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

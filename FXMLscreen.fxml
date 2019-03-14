@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #20120F;" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication1.FXMLscreenController">
+    <stylesheets>
+        <URL value="@fxmlscreen.css" />
+    </stylesheets>
+   <children>
+      <Label layoutX="386.0" layoutY="7.0" prefHeight="38.0" prefWidth="200.0" style="-fx-font-family: Century Gothic;" text="CALIFORNIA STORE" textAlignment="CENTER" textFill="#f5ecec">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="66.0" fitWidth="84.0" layoutX="224.0" layoutY="217.0" pickOnBounds="true" preserveRatio="true" />
+      <Button layoutX="124.0" layoutY="151.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="106.0" style="-fx-background-color: #e45652;" text="BOOKS" textFill="#0a0000" />
+      <Button layoutX="308.0" layoutY="151.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="106.0" style="-fx-background-color: #e45652;" text="PHONES" textFill="#110000" />
+      <Button layoutX="124.0" layoutY="310.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="106.0" style="-fx-background-color: #e45652;" text="COMPUTERS" />
+      <Button layoutX="308.0" layoutY="310.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="106.0" style="-fx-background-color: #e45652;" text="HEADPHONES" />
+      <ImageView fitHeight="91.0" fitWidth="150.0" layoutX="102.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Desktop/book.jpg" />
+         </image></ImageView>
+      <ImageView fitHeight="91.0" fitWidth="150.0" layoutX="293.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Desktop/phone3.jpg" />
+         </image></ImageView>
+      <ImageView fitHeight="85.0" fitWidth="126.0" layoutX="114.0" layoutY="213.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Desktop/computer.jpg" />
+         </image></ImageView>
+      <ImageView fitHeight="91.0" fitWidth="150.0" layoutX="319.0" layoutY="209.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Desktop/headphone.jpg" />
+         </image></ImageView>
+   </children>
+</AnchorPane>
